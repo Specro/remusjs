@@ -1,5 +1,5 @@
 {
-  "name": "remus",
+  "name": "remusjs",
   "version": "0.1.0",
   "description": "Remus is a responsive multi-view before/after slider",
   "main": "./src/remus.js",

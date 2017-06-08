@@ -1,4 +1,4 @@
-/*! Remus v0.1.0 by Liudas Dzisevicius (https://github.com/specro) */
+/*! RemusJS v0.1 by Liudas Dzisevicius (https://github.com/specro) */
 (function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 	  define([], factory);

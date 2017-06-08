@@ -1,4 +1,4 @@
-# Remus v0.1.0
+# RemusJS v0.1
 :heavy_check_mark: 5kb minified!   
 :heavy_check_mark: Responsive!  
 :heavy_check_mark: Custom content!  
