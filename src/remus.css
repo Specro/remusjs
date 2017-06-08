@@ -1,0 +1,59 @@
+.remus {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	width: 100%;
+	overflow: hidden;
+	-webkit-user-select:none;
+	-moz-user-select: none;
+	user-select: none;
+	-ms-user-select: none;
+	-webkit-user-drag:none;
+	-moz-user-drag: none;
+	user-drag: none;
+	-ms-user-drag: none;
+}
+
+.remus > * {
+	width: 100%;
+}
+
+.remus .remus-element {
+	width: 100%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.remus .remus-element > * {
+	position: relative;
+}
+
+.remus > :first-child {
+	position: relative;
+}
+
+.remus :not(:first-child) {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.remus .remus-handle {
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transition: box-shadow 0.2s cubic-bezier(.25,.8,.25,1);
+}
+
+.remus .remus-handle:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.remus .remus-handle:active {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
