@@ -1,6 +1,6 @@
 .remus {
 	position: relative;
-	display: inline-block;
+	display: flex;
 	max-width: 100%;
 	width: 100%;
 	overflow: hidden;

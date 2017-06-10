@@ -9,6 +9,27 @@
 Remus works by manipulating element container's width to show or hide a part of the content. It takes up 100% of its container's width and assumes that your content has enough width to fill. It resizes content dynamically by applying main container's width to content.
 
 ## Installation
+### Webpack
+Install with NPM:
+```Shell
+npm install remusjs --save
+```
+
+And import in your project:
+```JavaScript
+import Remus from 'remusjs';
+```
+
+Don't forget the CSS:
+```JavaScript
+import from 'remus/src/remus.css';
+```
+SCSS:
+```SCSS
+@import '~remusjs/src/remus';
+```
+
+### Browser
 Just download minified sources and add them to your HTML:
 
 ```HTML
